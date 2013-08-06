@@ -14,5 +14,8 @@
             "email": "me@michaelgooden.net",
             "homepage": "http://michaelgooden.github.io/"
         }
-    ]
+    ],
+    "require": {
+        "zf-commons/zfc-user": "0.1.*"
+    }
 }
