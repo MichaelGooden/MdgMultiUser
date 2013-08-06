@@ -1,0 +1,18 @@
+{
+    "name": "michaelgooden/mdg-multi-user",
+    "description": "ZF2 module to allow multiple concurrent instances of ZfcUser, for independant user systems.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "oauth2"
+    ],
+    "homepage": "https://github.com/MichaelGooden/MdgMultiUser",
+    "authors": [
+        {
+            "name": "Michael Gooden",
+            "email": "me@michaelgooden.net",
+            "homepage": "http://michaelgooden.github.io/"
+        }
+    ]
+}
