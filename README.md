@@ -30,7 +30,7 @@ Installation
 
     ```json
     "require": {
-        "michaelgooden/mdg-multi-user": "dev-develop"
+        "michaelgooden/mdg-multi-user": "0.1.*"
     }
     ```
 
