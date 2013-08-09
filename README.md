@@ -3,7 +3,7 @@ MdgMultiUser
 
 Created by Michael Gooden (#MichaelGooden).
 
-I can usually be found on [#zftalk on Freenode](irc://irc.freenode.net/zftalk)
+I can usually be found on [#zftalk on Freenode](http://webchat.freenode.net/?channels=zftalk)
 if you need help setting this up.
 
 Introduction
@@ -30,7 +30,7 @@ Installation
 
     ```json
     "require": {
-        "michaelgooden/mdg-multi-user": "0.1.*"
+        "michaelgooden/mdg-multi-user": "dev-develop"
     }
     ```
 
@@ -74,10 +74,10 @@ Installation
 In order to access the view helpers and controller plugins, you need to call a
 different set of commands.
 
-Controller plugin `ZfcUserAuthentication()` maps to `MdgMultiUserAuthentication($alias)`
-View helper `ZfcUserDisplayName()` maps to `MdgMultiUserDisplayName($alias)`
-View helper `ZfcUserIdentity()` maps to `MdgMultiUserIdentity($alias)`
-View helper `ZfcUserLoginWidget()` maps to `MdgMultiUserLoginWidget($alias)`
+ -  Controller plugin `ZfcUserAuthentication()` maps to `MdgMultiUserAuthentication($alias)`
+ -  View helper `ZfcUserDisplayName()` maps to `MdgMultiUserDisplayName($alias)`
+ -  View helper `ZfcUserIdentity()` maps to `MdgMultiUserIdentity($alias)`
+ -  View helper `ZfcUserLoginWidget()` maps to `MdgMultiUserLoginWidget($alias)`
 
 In all cases `$alias` must be replaced by the name of your subsystem. This is
 derived from the key of the config array under `'mdgmultiuser'`.
