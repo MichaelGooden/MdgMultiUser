@@ -1,4 +1,4 @@
-MdgMultiUser
+MdgMultiUser [![Dependency Status](https://www.versioneye.com/php/michaelgooden:mdg-multi-user/badge.png)](https://www.versioneye.com/php/michaelgooden:mdg-multi-user/)
 ============
 
 Created by Michael Gooden (#MichaelGooden).
