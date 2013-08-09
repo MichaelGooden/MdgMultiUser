@@ -5,7 +5,9 @@
     "license": "BSD-3-Clause",
     "keywords": [
         "zf2",
-        "oauth2"
+        "zfcuser",
+        "user",
+        "multiuser"
     ],
     "homepage": "https://github.com/MichaelGooden/MdgMultiUser",
     "authors": [
@@ -14,5 +16,16 @@
             "email": "me@michaelgooden.net",
             "homepage": "http://michaelgooden.github.io/"
         }
-    ]
+    ],
+    "require": {
+        "zf-commons/zfc-user": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MdgMultiUser": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
 }

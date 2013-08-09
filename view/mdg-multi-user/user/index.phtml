@@ -1,0 +1,4 @@
+<div style="float:left; padding-right:16px;"><?php echo $this->gravatar($this->mdgMultiUserIdentity($this->alias)->getEmail()) ?></div>
+<h3>Hello, <?php echo $this->mdgMultiUserDisplayName($this->alias) ?>!</h3>
+<a href="<?php echo $this->url($this->routeLogout) ?>">[Sign Out]</a>
+<div style="clear:both;"></div>
